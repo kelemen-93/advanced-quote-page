@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size 100%;
+}
+
+body {
+  height: 100vh;
+  background-color: rgba(255,0,0,0.4);
+  background-image: url(assets/lake.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.topnav {
+  width: 500px;
+  height: 50px;
+  background-color: rgba(60,60,60,0.4);
+  margin: 10px auto 0 auto;
+}
+
+a {
+  display: inline-block;
+  padding-top: 5px;
+  padding-left: 6.5px;
+  padding-right: 6.5px;
+}
+
+a:hover {
+  background-color: rgba(221,221,221,1);
+}
+
+.active {
+  background-color: lightblue;
+}
+
+.quote, .author {
+  margin: 0 auto;
+}
+
+.quote {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  width: 600px;
+  height: 70px;
+  background-color: rgba(60,179,113,0.4); 
+}
+
+.author {
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 70px;
+  background-color: rgba(60,179,113,0.4);
+  
+}
